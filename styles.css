@@ -1,0 +1,94 @@
+.achtergrond-kleur-pagina{
+   background-color: #87cefa47;
+}
+
+
+header{
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: #14008045;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 25%;
+}
+
+.inleiding{
+    font-size: 25px;
+    font-style: italic;
+    border: 0px;
+    border-style: dotted;
+    border-color: gray;
+    padding: 10px;
+    margin: 0 auto;
+    width : 40%;
+    text-align: center;
+    background-color: rgb(139, 238, 238);    
+}
+
+.artikel{
+    border-style: dotted;
+    border-color: rgb(161, 134, 46);
+    padding: 10px;
+    background-color: #d3d3a2;
+    font-size : 15px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+}
+
+.navi{
+    background-color: burlywood;
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navi2{
+ width: 12.5%;
+ display: inline-block;
+    padding: 8px
+}
+lis{
+    display: inline-block;
+    padding: 8px;  
+    
+}
+
+.blauw{
+    color: rgb(184, 37, 11);
+}
+
+.avontuur{
+    background-color: navy;
+    color: white;
+}
+
+.contact{
+    Color: Blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Media queries */
+
+@media (min-width: 1024px) {
+    .achtergrond-kleur-pagina{
+        background-color: rgb(95, 93, 93);
+     }
+ Header{
+     background-color: red;
+     color: white;
+ }
+ .artikel{
+     background-color: aqua;
+     color : rgb(39, 18, 224);
+     font-size: 12px;
+     line-height: 1.25;
+ }
+
+ }   
+}
